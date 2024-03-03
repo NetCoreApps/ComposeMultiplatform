@@ -10,5 +10,12 @@
                 "flmapper": "ext.mapPath = { path -> null }"
             }
         },
+        {
+            "type": "command",
+            "name": "Update DTOs",
+            "program": "x",
+            "workingDir": "./",
+            "args": ["kotlin"],
+        },
     ]
 }
