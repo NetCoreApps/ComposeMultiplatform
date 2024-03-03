@@ -3,12 +3,12 @@
         {
             "name": "composeApp [Desktop]",
             "type": "gradle",
-            "workingDir": "C:\\src\\netcore\\ComposeMultiplatform\\kmp",
+            "workingDir": "./",
             "tasks": ["desktopRun"],
-            "args": ["-DmainClass=MainKt", "--quiet", "-p", "C:\\src\\netcore\\ComposeMultiplatform\\kmp\\composeApp"],
+            "args": ["-DmainClass=MainKt", "--quiet", "-p", "./composeApp"],
             "initScripts": {
                 "flmapper": "ext.mapPath = { path -> null }"
             }
-        }
+        },
     ]
 }
